@@ -52,3 +52,77 @@ JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1601320992168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofiledCsAqB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601320996879	Marionette	INFO	Listening on port 53811
+1601320996969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+1601321531498	Marionette	INFO	Stopped listening on port 53811
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601321541988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileBmslQq"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601321549377	Marionette	INFO	Listening on port 54039
+1601321549469	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+1601321569171	Marionette	INFO	Stopped listening on port 54039
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601321593989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilew6VvEM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601321601185	Marionette	INFO	Listening on port 54126
+1601321601740	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/Aluno_cad.asp, line 2723: ReferenceError: mostraDadosDocumentos is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/js/menu.js, line 87: TypeError: b is null
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/Aluno_cad.asp, line 2723: ReferenceError: mostraDadosDocumentos is not defined
+1601322508662	Marionette	INFO	Stopped listening on port 54126
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601322517978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofiletR5334"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601322527867	Marionette	INFO	Listening on port 54407
+1601322528107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+1601323056030	Marionette	INFO	Stopped listening on port 54407
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601323063982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileoNkyiD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601323070291	Marionette	INFO	Listening on port 54591
+1601323070324	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+1601323096378	Marionette	INFO	Stopped listening on port 54591
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
