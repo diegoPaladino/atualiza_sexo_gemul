@@ -8,10 +8,10 @@ import winsound
 
 # declarations
 driver = webdriver.Firefox()
+cont = 3
+ultimo = 0
 
 
-#open/login Gemul
-#efetuando o login(making the login)
 def open_login_gemul():
     driver.get('http://gemul.com.br')
     driver.set_window_position(166,-700)
@@ -27,20 +27,22 @@ def open_login_gemul():
     p.hotkey('enter')
     t.sleep(2)
     driver.find_element_by_class_name('img-responsive').click()
-    #selecionando "Cadastro de Alunos"
-    p.moveTo(425,-707)
+    #selecionando "Historico Escolar Ensino Fundamental (de onde há o sexo do aluno)"
+    p.moveTo(425,-707,duration=0.3)
     p.click()
     t.sleep(0.5)
-    p.moveTo(451,-327)
+    p.moveTo(451,-327,duration=0.3)
     p.click()
     t.sleep(0.5)
 
 def seleciona_excel():
     p.moveTo(320,-23,duration=0.3)
     p.click()
+    p.hotkey('esc')
+    t.sleep(0.3)
     p.hotkey('home')
     t.sleep(0.3)
-    p.hotkey('right')
+    p.press('right')
 
 def copia_matricula():
     p.moveTo(291,181,duration=0.3)
@@ -61,7 +63,7 @@ def pesquisa_aluno():
     t.sleep(3)
 
 def copia_sexo():
-    p.moveTo(1302,-565)
+    p.moveTo(1302,-565,duration=0.3)
     p.doubleClick()
     t.sleep(0.3)
     p.hotkey('ctrl','c')
@@ -73,22 +75,38 @@ def cola_sexo_excel():
     t.sleep(0.3)
     p.hotkey('esc')
     t.sleep(0.3)
-    p.hotkey('right'),
+    p.press('right')
     t.sleep(0.3)
     p.hotkey('ctrl','v')
-    t.sleep(2)
+    t.sleep(1)
 
 def volta_pagina():
     p.moveTo(25,-848,duration=0.3)
     p.click()
     t.sleep(0.3)
+    p.moveTo(425,-707,duration=0.3)
+    p.click()
+    t.sleep(0.5)
+    p.moveTo(451,-327,duration=0.3)
+    p.click()
+    t.sleep(0.5)
+
+def proximo():
+    p.press('down')
+    t.sleep(0.3)
+    p.press('left')
+    t.sleep(0.3)
+
 
 # execution
 open_login_gemul()
 seleciona_excel()
-copia_matricula()
-pesquisa_aluno()
-copia_sexo()
-volta_pagina()
-cola_sexo_excel()
 
+while cont > ultimo:
+    copia_matricula()
+    pesquisa_aluno()
+    copia_sexo()
+    volta_pagina()
+    cola_sexo_excel()
+    proximo()
+cont +=1
