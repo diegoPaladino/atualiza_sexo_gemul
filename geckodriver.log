@@ -1,0 +1,54 @@
+1601317820146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileJX1nI1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601317824589	Marionette	INFO	Listening on port 52873
+1601317824960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601318318855	Marionette	INFO	Stopped listening on port 52873
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601318454124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileWgi6y1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601318458099	Marionette	INFO	Listening on port 53059
+1601318458308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+1601319284781	Marionette	INFO	Stopped listening on port 53059
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601320364066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofileDNVcZl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601320370380	Marionette	INFO	Listening on port 53540
+1601320370567	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+1601320415659	Marionette	INFO	Stopped listening on port 53540
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601320421878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofile8jSvrV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601320428721	Marionette	INFO	Listening on port 53625
+1601320429151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.gemul-aparecida.com.br/Sistema/Default.asp, line 349: ReferenceError: CirclesMaster is not defined
+JavaScript error: http://www.gemul-aparecida.com.br/gemul2015/Sistema/SCA/ALUNO_CAD.ASP, line 593: ReferenceError: mostraDadosDocumentos is not defined
+1601320449031	Marionette	INFO	Stopped listening on port 53625
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
