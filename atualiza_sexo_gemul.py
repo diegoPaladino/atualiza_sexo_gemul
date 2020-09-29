@@ -1,4 +1,5 @@
 #atualiza_sexo_gemul
+#SUCESSFUL
 
 # libraries
 import pyautogui as p
@@ -78,7 +79,7 @@ def cola_sexo_excel():
     p.press('right')
     t.sleep(0.3)
     p.hotkey('ctrl','v')
-    t.sleep(1)
+    t.sleep(5)
 
 def volta_pagina():
     p.moveTo(25,-848,duration=0.3)
