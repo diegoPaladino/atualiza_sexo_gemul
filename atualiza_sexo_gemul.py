@@ -6,12 +6,19 @@ import pyautogui as p
 import time as t
 from selenium import webdriver
 import winsound
+from twilio.rest import Client
 
 # declarations
 driver = webdriver.Firefox()
 cont = 3
 ultimo = 0
 
+# Your Account SID from twilio.com/console
+account_sid = "AC42c3b0dac480c2bf504f403704742f89"
+# Your Auth Token from twilio.com/console
+auth_token  = "42f2a0846d5e66bb0edc7880a99d93ca"
+
+client = Client(account_sid, auth_token)
 
 def open_login_gemul():
     driver.get('http://gemul.com.br')
@@ -43,7 +50,7 @@ def seleciona_excel():
     t.sleep(0.3)
     p.hotkey('home')
     t.sleep(0.3)
-    p.press('right')
+    
 
 def copia_matricula():
     p.moveTo(291,181,duration=0.3)
@@ -56,7 +63,7 @@ def pesquisa_aluno():
     p.doubleClick()
     t.sleep(0.3)
     p.hotkey('ctrl','v')
-    t.sleep(0.5)
+    t.sleep(1)
     p.hotkey('tab')
     t.sleep(1)
     p.moveTo(56,-542,duration=0.3)
@@ -76,10 +83,11 @@ def cola_sexo_excel():
     t.sleep(0.3)
     p.hotkey('esc')
     t.sleep(0.3)
-    p.press('right')
+    p.press('right',presses=13)
     t.sleep(0.3)
     p.hotkey('ctrl','v')
-    t.sleep(5)
+    t.sleep(7)
+    
 
 def volta_pagina():
     p.moveTo(25,-848,duration=0.3)
@@ -95,8 +103,8 @@ def volta_pagina():
 def proximo():
     p.press('down')
     t.sleep(0.3)
-    p.press('left')
-    t.sleep(0.3)
+    p.hotkey('home')
+    t.sleep(0.8)
 
 
 # execution
@@ -104,10 +112,20 @@ open_login_gemul()
 seleciona_excel()
 
 while cont > ultimo:
-    copia_matricula()
-    pesquisa_aluno()
-    copia_sexo()
-    volta_pagina()
-    cola_sexo_excel()
-    proximo()
+    try:
+        copia_matricula()
+        pesquisa_aluno()
+        copia_sexo()
+        volta_pagina()
+        cola_sexo_excel()
+        proximo()
+
+    except:
+        message = client.messages.create(
+        to="+5562992591138", 
+        from_="+14152363566",
+        body="deu erro")
+
+print(message.sid)
+
 cont +=1
